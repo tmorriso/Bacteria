@@ -1,0 +1,14 @@
+# this is practice data for the DNA problem
+# use this to test the program before using 1 million lines of code
+# rsid	Chromosome	Position Genotype
+rs4477212	1	72017	AA
+rs4477213	1	720171	AA
+rs4477214	1	720172	CG
+rs7754840	1	720234	**
+rs1426654	1	720235	AA
+rs4994	1	72089	**
+rs1042713	1	720243	CC
+rs1801282	1	720233	**
+rs1042714	1	720235	**
+rs1799883	1	720244	GG
+rs1243432	1	720023	CC

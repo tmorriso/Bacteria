@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() //name of method
+{
+	
+	cout<<abs(-12) << endl;
+	cout<< "Hello, World!"<<endl;
+
+	return 0;
+}
+
+
+/* 
+cout 
+represents a destination (usuallly the screen ) to which the 
+
+white space- used to seperate words and symbols in a  program 
+
+identifiers:
+- Can be a variable name, class name, constant, function name
+- Can consist of letter, digits, or underscore '_'
+- Case sensitive 
+- C++ reserved words
+*/
