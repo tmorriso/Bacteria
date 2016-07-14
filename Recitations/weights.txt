@@ -1,0 +1,6 @@
+Midterm 1 10 
+Midterm 2 10
+FinalExam 20
+Homeworks 30
+Quizes 10
+Labs 20

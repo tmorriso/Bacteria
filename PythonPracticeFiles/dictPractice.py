@@ -1,0 +1,14 @@
+grades = {"Q1":99, "Q2":87, "Exam":96}
+
+#print ("Q1" in grades)
+#print (grades["Q2"])
+
+#keys = grades.keys()
+#for key in keys:
+#	print(grades[key])
+total = 0
+for key in grades:
+	print(grades[key])
+	total += grades[key]
+print(total)
+

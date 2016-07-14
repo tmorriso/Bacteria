@@ -1,0 +1,4 @@
+Replicate,To double something
+Truman,Watership Down
+This is a word,The Five People You Meet in Heaven
+Talk,Speak

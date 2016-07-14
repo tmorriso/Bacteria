@@ -1,0 +1,35 @@
+# Tom Morrison
+# September 16, 2015
+# Recitation 4 (functions)
+
+def calcFactorial(n):
+	fact = 1
+	while n > 0 :
+		fact = fact * n
+		n = n - 1
+	return fact
+"""
+def main ():
+	x = 5
+	print (x)
+	z = calcFactorial(x)
+	print (x, z)
+main()
+"""
+def nChooseK (n,k):
+	nFact = calcFactorial(n)
+	kFact = calcFactorial(k)
+	n_k = n - k
+	n_kFact = calcFactorial(n_k)
+	return nFact / (kFact *n_kFact)
+def main ():
+	x = 4
+	y = 2
+	z = nChooseK (x,y)
+	print('c(4,2)= %.0f'% z)
+
+	w = 10
+	p = 5
+	v = nChooseK (w,p)
+	print('c(10,5)=%.0f'% v)
+main()
